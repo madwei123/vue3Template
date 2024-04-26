@@ -1,0 +1,26 @@
+@import './reset.less';
+@import './common.less';
+body {
+  position: relative;
+  box-sizing: border-box;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  font-family:
+    PingFang SC,
+    Arial,
+    Microsoft YaHei,
+    sans-serif;
+  font-size: 14px;
+  color: #515a6e;
+  background: #f6f8f9;
+}
+#app {
+  height: 100vh;
+}
+// 自定义加载条样式
+#nprogress .bar {
+  background: url(../images/nbar.png) repeat-x !important;
+  height: 10px !important;
+}
