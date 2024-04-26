@@ -1,7 +1,5 @@
 <template>
-  <div class="tabGenerateWrapper">
-    <fm-generate-form :data="jsonData" ref="generateForm"></fm-generate-form>
-  </div>
+  <div class="tabGenerateWrapper"></div>
 </template>
 
 <script setup lang="ts">
